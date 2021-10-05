@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+:root{
+    --primary-color: #7f8fa6;
+    --font-size-primary : 16px;
+}
+
+body{
+    font-family: 'Ubuntu', 'sans-serif';
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid {
+    width: 1250px;
+    margin: 0.5rem auto;
+    box-shadow: 1px 1px 10px 0.1px var(--primary-color);
+}
+
+.col-8 p{
+    text-align: justify;
+    margin-top: 2%;
+}
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 1%;
+    margin: 0.3rem auto;
+}
+
+.footer p{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    padding: auto;
+    margin: auto;
+}
